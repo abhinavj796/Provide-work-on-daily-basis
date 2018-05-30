@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script Language ="JavaScript" SRC="source.js"></script>
+    
+<style>
+     input[type=submit] {
+     width: 12%;
+    background-color: #00cccc;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #009999;
+}
+   
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 300px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+    
+#header {
+    background-color:#0073e6;
+    color:white;
+    padding:15px;
+    height:50px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:200px;
+    float:left;
+    	      
+}
+#section {
+    height:500px;
+    width:1100px;
+    float:left;
+    	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+   padding:5px;	
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #ffffff;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding:23px;
+   text-align:center;
+}
+.left {
+    position: absolute;
+    width: 700px;
+    }
+ input[type=text], input[type=password],select, textarea {
+    
+    padding: 0px;
+    border: 3px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}   
+</style>
+</head>
+
+
+<body>
+
+<div id="header">
+    <div class="left"><img src="mgnrega.gif" width="600" height="50" alt="c6"/></div>
+        <div class="right"><Form Method ="Post" Action = "Check">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                User Name &nbsp
+             <Input Type = "text" Value="" Name = "nm" required>
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             Password &nbsp
+             <Input Type = "password" Value="" Name = "pass" required>
+             <Input Type = "submit" Value="Login" >
+             </Form>
+        </div>
+</div>
+
+<div id="nav">
+<ul>
+  <li><a href="index.html">Labour Register</a></li>
+  <li><a href="Needer.html">Needer Register</a></li>
+  <li><a href="Forgot.html">Forgot Password</a></li>
+  <li><a href="Admin.html">Administrator</a></li>
+  <li><a class="active" href="Contactus.html">Contact Us</a></li>
+</ul>
+    
+</div>
+
+    <div id="section" style="background-image:url('508374604.jpg');background-size:100% 100%;">
+        
+<h2>CONTACT US</h2>
+<p>You can contact us anytime whenever you have a problem.we will be happy to help you.</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="cu1.jpg" alt="Contactus1" style="width:100%">
+      <div class="container">
+        <h2>ADDRESS</h2>
+        <p class="title">OFFICE</p>
+        <p>Delhi-6 ,Rajya Sabha, New Delhi</p>
+	<p>Govt. of India, Haryana Branch</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="cu2.png" alt="Contactus2" style="width:100%">
+      <div class="container">
+        <h2>Call us</h2>
+        <p class="title">TELEPHONE</p>
+        <p><b>Landline</b> - 011-123456</p>
+	 <p><b>mobile</b> - 0123456789</p>
+ 	 <p><b>Toll free</b> -012001200</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="cu3.jpg" alt="Contactus3" style="width:100%">
+      <div class="container">
+        <h2>Write Us</h2>
+        <p class="title">Email id</p>
+        <p>Admin@Mgnrega.com</p>
+        <p>Info@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+<div id="footer">
+  Copyright©Mahatama Gandhi National Rural Employment Guarantee Act
+</div>
+
+</body>
+
+

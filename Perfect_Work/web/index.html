@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/my.css">
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+  <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+    
+  
+  <link rel="stylesheet" type="text/css" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #a3c2c2;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  
+  .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 10%;
+    min-height: 10%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 40%;
+}
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">The Perfect Work</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">Register</a></li>
+          <li><a href="#section3">Our Team</a></li>
+	  <li><a href="#section4">Contact Us</a></li>
+          <li class="dropdown"><a class="dropdown-toggle visible-xs" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Login<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+         <li>  
+      <form action="Check" method="Post">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="nm" placeholder="Email">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="pass" placeholder="Password">
+    </div>
+  <a href="#">Forgot Password?</a>     
+    <br><br>
+    <input type="submit" class="btn btn-primary radio-inline">
+  </form>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+    <div id="section1" class="container-fluid" style="background-image:url('image/b1.jpg'); background-size:cover">
+  <h1>The Perfect Work:</h1>
+  <div class="col-xs-8">
+  <h2>CAREERS</h2>
+  <p>   
+If there’s one thing that unites the people who work here, it’s this: we believe that bicycles change lives. We’re always looking for passionate people—in all disciplines, from engineers and designers to sales and administration roles—who share in this belief and are looking to play an active role in inspiring and getting more people on bikes. Are you ready to make a difference and move your career forward?
+  </p> </div>
+  <div class="col-xs-4 hidden-xs">
+      <div class="cust">
+          <div style="  margin:3px;padding : 10px; min-height: 50px; background:rgba(0,0,255,0.5); font-size: large"> Login</div>    
+          <br>
+          
+          <form method="Post" action="Check">
+		  <br>
+              <br><br>         
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="nm" placeholder="Username">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="pass" placeholder="Password">
+    </div>
+    <br>
+   <a href="#">Forgot Password?</a> 
+   <br>
+   <br>
+   <input type="submit" class="btn btn-primary" style="width:100%">
+    </form>
+      </div>
+  </div>
+  </div>
+    
+    
+<div id="section2" class="container-fluid">
+   <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home" style="color:#999999"><b>Get Hired</b></a></li>
+    <li><a data-toggle="tab" href="#menu1" style="color:#999999"><b>Do Hire</b></a></li>
+  </ul>
+
+    <div class="tab-content">
+
+<div id="home" class="tab-pane fade in active" style="color:grey">
+    
+<form id="regForm" action="Register1" method="post">
+  <h1>Register as a Service Provider(Get Hired):</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab" >
+      Name:
+    <p><input placeholder="Name..." oninput="this.className = ''" name="cnm"></p>
+    Phone No.:
+    <p><input placeholder="Phone No...." oninput="this.className = ''" name="ph"></p>
+  </div>
+  <div class="tab">
+      Location:
+    <p>
+	<Select Name ="add" oninput="this.className = ''"> 
+<option value = "Sonipat" Selected> Sonipat &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<option value = "Panipat"> Panipat
+<option value = "Samalkha"> Samalkha
+<option value = "Gaunaur"> Gaunaur
+<option value = "Rai"> Rai
+</Select>
+	</p>
+  </div>
+  <div class="tab">Skills:
+    <p>
+	<Select Name ="skill" > 
+<option value = "Carpenter" Selected> Carpenter &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<option value = "Plumber"> Plumber
+<option value = "Electrician"> Electrician
+<option value = "Driver"> Driver
+<option value = "Painter"> Painter
+</Select>
+	</p>
+  </div>
+  <div class="tab">Payment details:
+    <p><input type="text" placeholder="Pay..." oninput="this.className = ''" name="pay"></p>
+    <p>
+	<Select Name ="per" style="width:100%"> 
+<option value = "Hour" Selected> Hour &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<option value = "Day"> Day
+<option value = "Week"> Week
+<option value = "Month"> Month
+<option value = "Year"> Year
+</Select>
+	</p>
+  </div>
+  <div class="tab">Login Information:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="nm"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pass" type="password"></p>
+  </div>
+  <div class="tab">Security Quuestion:
+    <p><input placeholder="Which is your fav player..." oninput="this.className = ''" name="fav"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)" style="color:white">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)" style="color:white">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+    
+  <script src="js/inde.js"></script>        
+<br><br>
+ </div>
+      
+      
+<div id="menu1" class="tab-pane fade" style="color:grey">  
+    
+<form id="regFormDH" action="Register" method="post">
+  <h1>Register for Do Hiring:</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tb" >Name & Mobile No.:
+    <p><input placeholder="Name..." oninput="this.className = ''" name="cnm"></p>
+    <p><input placeholder="Contact No..." oninput="this.className = ''" name="ph"></p>
+  </div>
+  <div class="tb">Address:
+    <p><input placeholder="Address..." oninput="this.className = ''" name="add"></p>
+    <p>
+	<Select Name ="city" > 
+<option value = "Sonipat" Selected> Sonipat &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<option value = "Panipat"> Panipat
+<option value = "Samalkha"> Samalkha
+<option value = "Gaunaur"> Gaunaur
+<option value = "Rai"> Rai
+</Select>
+	</p>
+  </div>
+  <div class="tb">Login Information:
+    <p><input placeholder="Username(Email)..." oninput="this.className = ''" name="nm"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pass" type="pass"></p>
+  </div>
+  <div class="tb">Serurity Question:
+    <p><input placeholder="Your Favourite Player..." oninput="this.className = ''" name="pnm"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevB" onclick="nextP(-1)" style="color:white">Previous</button>
+      <button type="button" id="nextB" onclick="nextP(1)" style="color:white">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="st"></span>
+    <span class="st"></span>
+    <span class="st"></span>
+    <span class="st"></span>
+    <span class="st"></span>
+  </div>
+</form>
+
+  <script src="js/inde2.js"></script>        
+<br><br>
+    </div>
+  </div>
+</div>
+
+
+
+    
+<div id="section3" class="container-fluid">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+			<h1>Meet Our Team</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<div class="row section-info ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="image/1.jpg">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Abhinav Jain</p><br>
+					<h1>Web Developer</h1><br>
+				</div>
+				<div class="col-md-12 section4">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<div class="row section-info ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="image/2.jpg">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Brijesh Khanijo</p><br>
+					<h1>Team Leader</h1><br>
+				</div>
+				<div class="col-md-12 section4">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<div class="row section-danger ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="image/3.jpg">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Riju Jain</p><br>
+					<h1>Web Designer</h1>
+                                     
+                                </div>
+				<div class="col-md-12 section4">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<br><br>
+<div id="section4" class="container-fluid">
+<div class="container">
+            <div class="row">
+                <div class="col-md-6 " id="form_container">
+                    <h2>Contact Us</h2> 
+                    <p> Please send your message below. We will get back to you at the earliest! </p>
+                    <form role="form" method="post" id="reused_form">
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="message"> Message:</label>
+                                <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="email"> Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

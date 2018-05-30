@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script Language ="JavaScript" SRC="source.js"></script>
+    
+<style>
+    input[type=submit] {
+     width: 12%;
+    background-color: #00cccc;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #009999;
+}
+
+#header {
+    background-color:#0073e6;
+    color:white;
+    padding:15px;
+    height:50px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:200px;
+    float:left;
+    	      
+}
+#section {
+    height:500px;
+    width:1100px;
+    float:left;
+    	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+   padding:5px;	
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #ffffff;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding:23px;
+   text-align:center;
+}
+.left {
+    position: absolute;
+    width: 700px;
+    }
+    
+input[type=text], input[type=password],select, textarea {
+    
+    padding: 0px;
+    border: 3px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+</style>
+
+<script Language ="JavaScript" SRC="source.js"></script>
+<Title> Forgot Page </Title>
+
+<script Language ="JavaScript">
+function check(form)
+{
+
+var error="";
+error+=verify_username(form.nm.value);
+error+=verify_username(form.pnm.value);
+
+if(error!="")
+{
+alert(error);
+return false;
+}
+
+return true;
+} 
+
+</script>
+
+</head>
+
+
+<body >
+
+<div id="header">
+    <div class="left"><img src="mgnrega.gif" width="600" height="50" alt="c6"/></div>
+        <div class="right"><Form Method ="Post" Action = "Check">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                User Name &nbsp
+             <Input Type = "text" Value="" Name = "nm">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             Password &nbsp
+             <Input Type = "password" Value="" Name = "pass">
+             <Input Type = "submit" Value="Login" >
+             </Form>
+        </div>
+</div>
+
+<div id="nav">
+<ul>
+  <li><a href="index.html">Labour Register</a></li>
+  <li><a href="Needer.html">Needer Register</a></li>
+  <li><a class="active" href="Forgot.html">Forgot Password</a></li>
+  <li><a href="Admin.html">Administrator</a></li>
+  <li><a href="Contactus.html">Contact Us</a></li>
+</ul>
+    
+</div>
+    
+    
+    <div id="section" style="background-image:url('508374604.jpg');background-size:100% 100%;">
+<br><br>
+<br>    
+<Center>
+<img src="forget-password.png">
+<br>
+<br>
+<Form Method ="Post" Action = "Forgot" name="myForm2" onsubmit="return validateForm()">
+<FONT COLOR = #3333ff>User Name &nbsp&nbsp&nbsp&nbsp&nbsp
+<Input Type = "text" Value="" Name = "nm">
+<BR><BR> Favourite Player 
+<Input Type = "text" Value="" Name = "pnm">
+
+<Br><Br><BR>&nbsp&nbsp
+<Input Type = "submit" Value="Submit" >
+</Font>
+</Form>
+</Center>
+<br>
+<marquee><font size =6 color = brown ><i>Specify user name and favourite player</i></font></marquee>
+
+    </div>
+    <br>
+  
+
+<div id="footer">
+  Copyright©Mahatama Gandhi National Rural Employment Guarantee Act
+</div>
+
+
+	<!-- Validations -->
+    <script src="js/registervalidation.js"></script>
+   
+
+</body>
+
+
+
